@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid .row .navbar .container .navbar-brand,
+.collapse .navbar-nav .nav-item .nav-link{
+    margin-inline: 7px;
+    padding-inline: 20px;
+    border-radius: 5px;
+}
+.container-fluid .row .navbar .container .navbar-brand:hover ,
+.collapse .navbar-nav .nav-item:hover .nav-link{
+    background-color: #adb5bd;
+}
+.shop-style .container-fluid,
+footer .container-fluid{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-style .container-fluid{
+    height: 300px;
+}
+
+.shop-style .container-fluid .row h1{
+    font-size: 52px;
+}
+.image{
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-3 .card .card-body{
+    height: 200px;
+    justify-content: space-between;
+}
+.col-3 .card .card-body .card-content{
+    height: 110px;
+}
